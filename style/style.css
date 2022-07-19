@@ -24,6 +24,11 @@ main{
     display: none;
    
 }
+.container-pc{
+    background-color: #FFFFFF;
+    width: 1200px ;
+    padding: 30px ;
+}
 .nav{
    
     margin-top: 20px;
@@ -162,11 +167,12 @@ hr{
     
     }
     .container-pc{
-       display: flex;
+      
        flex-direction: column;
        justify-content: center;
         width: 100% ;
         align-items: center;
+        display: none;
     }
     .container{
         display: flex;
